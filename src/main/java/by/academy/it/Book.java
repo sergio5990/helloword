@@ -9,13 +9,17 @@ package by.academy.it;
  */
 public class Book {
 
-    String title;
+  private  String title;
 
     public String getTitle() {
         return title;
     }
 
     public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public Book(String title) {
         this.title = title;
     }
 }
